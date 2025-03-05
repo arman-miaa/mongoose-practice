@@ -17,10 +17,10 @@ connectDB();
 app.use("/api", user);
 
 
-app.get("/users", async (req, res) => {
-    const result = await User.find();
-    res.send(result)
-})
+
+
+
+
 
 // Root route
 app.get("/", (req, res) => {
